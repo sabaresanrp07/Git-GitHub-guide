@@ -6,29 +6,24 @@
 - GitHub - Website/cloud service
 - Stores Git repositories online
 
+
 ### I will tell u how all works first create a Repository in GitHub then go to terminal I prefer VS Code terminal after that use the below cmds to connect ur local folder to Git and GitHub
+
+
 
 ## Create local repo and connect to GitHub repo before this create a repo in GitHub
 
 - echo "# Git-GitHub-guide" >> README.md
-
-### this cmd creates local Repo(this is local repo .git/ mostly this is hidden) inside ur folder 
-- git init 
-
+- git init (this cmd creates local Repo(this is local repo '.git/' mostly this is hidden) inside ur folder )
 - git add .
 - git commit -m "Initial commit"
 - git branch -M main
-
-### this cmd connects that local Git repository to the GitHub repository
-- git remote add origin https://github.com/"your_username"/"REPO_NAME".git
-
-
+- git remote add origin https://github.com/"your_username"/"REPO_NAME".git (this cmd connects that local Git repository to the GitHub repository)
 - git push -u origin main
 
 ## Every time u work on ur working tree (directory where u edit do changes) do this 
 
 - git add .(. means add everything when u have worked on may file in your folder use add . or u can also add specific file like git add .num.py)
-
 - git commit -m "changes had done"
 - git push 
 
