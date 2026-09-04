@@ -12,7 +12,7 @@
 - git add .
 - git commit -m "Initial commit"
 - git branch -M main
-- git remote add origin https://github.com/sabaresanrp07/"REPO\_NAME".git
+- git remote add origin https://github.com/"your_username"/"REPO_NAME".git
 - git push -u origin main
 
 ## remove a folder from Git/GitHub
